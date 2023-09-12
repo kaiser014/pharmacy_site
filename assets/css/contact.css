@@ -1,0 +1,110 @@
+.contact-section {
+  background-color: #f7f7f7;
+}
+.contact-left-item {
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: #fff;
+}
+.contact-us-content {
+  border: 1px solid #c4c4c4;
+  padding: 25px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.contact-us-content h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #006a9b;
+}
+.contact-us-content h4 {
+  font-size: 26px;
+  margin: 0;
+  padding: 15px 0px;
+  color: #222222;
+}
+.contact-us-content p {
+  font-size: 16px;
+  color: #222222;
+  margin: 0;
+}
+.contact-details {
+  margin: 15px 0px;
+}
+.call-back-text {
+  padding-top: 10px;
+}
+.contact-details-content h6 {
+  margin-bottom: 5px;
+  font-size: 18px;
+  color: #006a9b;
+  font-weight: 600;
+}
+.contact-details-content h6 span i {
+  font-size: 20px;
+  color: #006a9b;
+}
+.contact-details-content p {
+  margin: 0;
+  font-size: 15px;
+  color: #000;
+}
+.contact-more-content h5 {
+  font-size: 22px;
+  font-weight: 600;
+  color: #006a9b;
+}
+.contact-more-content p {
+  font-size: 16px;
+  color: #000;
+}
+.contact-more-content p a {
+  font-size: 16px;
+  color: #006a9b;
+}
+
+/* @media only screen and (max-width: 575px) {} */
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .contact-us-content h1 {
+    font-size: 26px;
+  }
+  .contact-us-content h4 {
+    font-size: 22px;
+  }
+  .call-back-text {
+    padding-top: 0px;
+  }
+  .contact-details-content {
+    margin: 7px 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .contact-us-content h1 {
+    font-size: 30px;
+  }
+  .contact-us-content h4 {
+    font-size: 24px;
+  }
+  .call-back-text {
+    padding-top: 0px;
+  }
+  .contact-details-content {
+    margin: 7px 0;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .contact-us-content h1 {
+    font-size: 35px;
+  }
+  .contact-us-content h4 {
+    font-size: 26px;
+  }
+  .call-back-text {
+    padding-top: 5px;
+  }
+}

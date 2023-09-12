@@ -1,0 +1,288 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .medicine-slider h6 {
+    font-size: 14px;
+  }
+  .medicine-content-details {
+    margin-top: 20px;
+  }
+  .medi-details-title h6 {
+    font-size: 15px;
+  }
+  .smp-logo-image {
+    margin-bottom: 10px;
+  }
+  .social-link-content {
+    justify-content: space-evenly;
+  }
+  .price-checker-list {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+  .commonb-image img {
+    width: 20%;
+  }
+  .commonb-item {
+    margin-top: 10px;
+  }
+  .compare-vigra-title h1 {
+    font-size: 20px;
+  }
+  .compare-vigra-title h1 a {
+    font-size: 20px;
+  }
+  .compare-vigra-title p {
+    font-size: 14px;
+  }
+  .vaigratab-btn {
+    margin: 5px 0;
+  }
+  .data-table-outer {
+    overflow-x: scroll;
+  }
+  .medicine-desc-content h6 {
+    font-size: 20px;
+  }
+  .medicine-desc-title h4 {
+    font-size: 20px;
+  }
+  .rating-point {
+    margin-bottom: 10px;
+  }
+  .review-rating,
+  .review-rating-clients {
+    padding: 8px 10px;
+  }
+  .client-logo {
+    text-align: center;
+  }
+  .client-logo img {
+    width: 50%;
+  }
+  .google-logo {
+    padding: 10px 0;
+  }
+  .rating-big-star img {
+    width: 70%;
+  }
+  .rating-comments {
+    padding: 8px 0;
+  }
+  .rating-time {
+    padding-top: 8px;
+  }
+  .client-link-read {
+    padding-bottom: 8px;
+  }
+  .review-client-name {
+    padding: 15px 0;
+  }
+  .product-review p {
+    margin-bottom: 15px;
+  }
+  .smr-btn {
+    padding: 12px 16px;
+    font-size: 16px;
+  }
+  .find-out-more p a {
+    font-size: 14px;
+  }
+  .r-article-heading h3 a {
+    font-size: 20px;
+  }
+  .smp-logo-image {
+    margin-bottom: 10px;
+  }
+  .medicine-slider ul li p {
+    margin-left: 0px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .medicine-slider h6 {
+    font-size: 15px;
+  }
+  .medicine-content-details {
+    margin-top: 20px;
+  }
+  .medi-details-title h6 {
+    font-size: 18px;
+  }
+  .social-link-content {
+    margin-top: 10px;
+    justify-content: space-evenly;
+  }
+  .commonb-image img {
+    width: 20%;
+  }
+  .commonb-item {
+    margin-top: 10px;
+  }
+  .vaigratab-btn {
+    margin: 5px 0;
+  }
+  .data-table-outer {
+    overflow-x: scroll;
+  }
+  .medicine-desc-btn {
+    font-size: 17px;
+  }
+  .client-logo {
+    text-align: center;
+  }
+  .client-logo img {
+    width: 50%;
+  }
+  .google-logo {
+    padding: 10px 0;
+  }
+  .rating-big-star img {
+    width: 60%;
+  }
+  .rating-comments {
+    padding: 8px 0;
+  }
+  .rating-time {
+    padding-top: 8px;
+  }
+  .client-link-read {
+    padding-bottom: 8px;
+  }
+  .review-client-name {
+    padding: 15px 0;
+  }
+  .product-review p {
+    margin-bottom: 15px;
+  }
+  .discreet-service-imge {
+    text-align: center;
+  }
+  .discreet-service-imge img {
+    width: 65%;
+  }
+  .delivery-table tbody tr td {
+    font-size: 14px;
+  }
+  .about-register img {
+    width: 50%;
+  }
+  .about-creview img {
+    width: 55%;
+  }
+  .lowestprice-image-content img {
+    width: 65%;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .medicine-slider ul li p {
+    margin-left: 0px;
+  }
+  .medicine-slider ul li p {
+    display: none;
+  }
+  .social-link-content {
+    margin-top: 0px;
+    justify-content: space-between;
+  }
+  .social-link {
+    margin-right: 5px;
+  }
+  .commonb-add-ons {
+    font-size: 16px;
+  }
+  .commonb-image img {
+    width: 100%;
+  }
+  .commonb-content p {
+    font-size: 11px;
+  }
+  .commonb-btn {
+    padding: 2px 5px;
+  }
+  .compare-vigra-title h1 {
+    font-size: 20px;
+  }
+  .rating-big-star img {
+    width: 85%;
+  }
+  .rating-big-star span i {
+    font-size: 20px;
+  }
+  .discreet-service-imge img {
+    width: 100%;
+  }
+  .discreet-service-section h1,
+  .delivery-timetable-section h1,
+  .medicine-ra-section h1 {
+    margin-bottom: 20px;
+  }
+  .medi-popular-option h5 {
+    font-size: 22px;
+    margin-bottom: 20px;
+  }
+  .about-register img {
+    width: 45%;
+  }
+  .about-creview img {
+    width: 45%;
+  }
+  .lowestprice-image-content img {
+    width: 45%;
+  }
+  .about-need-help img {
+    width: 45%;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .medi-popular-option h5 {
+    font-size: 16px;
+    margin-bottom: 10px;
+  }
+  .popular-medi-content {
+    margin-left: 12px;
+  }
+  .about-register img {
+    width: 70%;
+  }
+  .about-register p {
+    font-size: 16px;
+  }
+  .about-creview h3 {
+    font-size: 22px;
+  }
+  .about-creview img {
+    width: 80%;
+  }
+  .lowestprice-image-content img {
+    width: 80%;
+  }
+  .lowestprice-image-content p {
+    padding: 0px 12px;
+  }
+  .about-need-help img {
+    width: 80%;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .startrustpilot-logo img {
+    width: 90%;
+  }
+  .social-link {
+    margin-right: 0px;
+  }
+  .medicine-slider ul li p {
+    display: block;
+    margin-left: 20px;
+  }
+  .client-logo img {
+    width: 70%;
+  }
+  .review-client-name {
+    padding: 5px 0;
+  }
+}

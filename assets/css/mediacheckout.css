@@ -1,0 +1,111 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .checkout-all-content {
+    padding: 20px;
+  }
+  .pc-details,
+  .shipping-details {
+    padding: 30px 20px;
+  }
+  .pc-title h3,
+  .shipping-title h3 {
+    font-size: 18px;
+  }
+
+  .checkout-formlabel {
+    margin-bottom: 5px;
+  }
+  .checkout-btn {
+    padding: 12px 4px;
+    font-size: 16px;
+  }
+  .row-alignment {
+    padding: 0px 0px;
+  }
+  .checkoutBtn-alignment {
+    text-align: center;
+  }
+  /* Common Css */
+  .pc-item,
+  .shipping-item {
+    padding: 5px 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .checkout-all-content {
+    padding: 20px;
+  }
+  .pc-details,
+  .shipping-details {
+    padding: 30px 20px;
+  }
+  .pc-title h3,
+  .shipping-title h3 {
+    font-size: 18px;
+  }
+
+  .checkout-formlabel {
+    margin-bottom: 5px;
+  }
+  .checkout-btn {
+    padding: 12px 4px;
+    font-size: 16px;
+  }
+  .row-alignment {
+    padding: 0px 0px;
+  }
+  .checkoutBtn-alignment {
+    text-align: center;
+  }
+  /* Common Css */
+  .pc-item,
+  .shipping-item {
+    padding: 5px 0;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .pc-details,
+  .shipping-details {
+    padding: 40px;
+  }
+  .checkout-formlabel {
+    font-size: 14px;
+  }
+  .checkout-btn {
+    padding: 12px 6px;
+    font-size: 14px;
+  }
+  .checkoutBtn-alignment {
+    text-align: end;
+  }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .checkout-all-content {
+    padding: 40px;
+  }
+  .checkout-formlabel {
+    font-size: 17px;
+  }
+  .checkout-btn {
+    padding: 12px 20px;
+    font-size: 17px;
+  }
+  .pc-item,
+  .shipping-item {
+    padding: 7px 0;
+  }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .checkout-all-content {
+    padding: 50px;
+  }
+  .checkout-btn {
+    font-size: 18px;
+  }
+}

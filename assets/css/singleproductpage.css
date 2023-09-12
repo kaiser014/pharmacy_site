@@ -1,0 +1,992 @@
+.breadcrumb-section,
+.single-medicine-page {
+  background-color: #f7f7f7;
+}
+.medicine-left-item {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 25px;
+}
+.medicine-slider {
+  position: relative;
+}
+.medicine-image-slider {
+  text-align: center;
+}
+
+.owl-nav {
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 0;
+  right: 0;
+}
+.owl-carousel .owl-nav button.owl-next,
+.owl-carousel .owl-nav button.owl-prev {
+  font-size: 50px;
+  color: rgba(0, 0, 0, 0.7);
+}
+.owl-prev {
+  float: left;
+}
+.owl-next {
+  float: right;
+}
+.item h4 {
+  margin-bottom: 0;
+}
+.owl-dots {
+  display: none;
+}
+.medicine-imgae-tagline {
+  margin: 0px;
+  font-style: italic;
+  color: #afafaf;
+  font-size: 14px;
+  text-align: center;
+}
+.medicine-slider ul {
+  padding-left: 25px;
+  margin-top: 15px;
+}
+.medicine-slider ul li span i {
+  margin-right: 5px;
+  color: #006a9b;
+  font-size: 16px;
+}
+.medicine-slider ul li {
+  color: #006a9b;
+}
+.medicine-slider ul li p {
+  color: #006a9b;
+  margin-left: 20px;
+  visibility: hidden;
+  margin-bottom: -20px;
+  font-style: italic;
+}
+.medicine-slider ul li:hover .medi-list {
+  visibility: visible;
+  margin-bottom: 10px;
+}
+.medicine-slider h6 {
+  text-align: center;
+  color: #006a9b;
+  font-weight: 700;
+  font-size: 15px;
+}
+.medicine-slider h6 span i {
+  text-align: center;
+  color: #4e4e4e;
+  margin-right: 5px;
+  font-size: 18px;
+}
+.medi-details-title h3 {
+  color: #006a9b;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+.medi-details-title h6 {
+  color: #000;
+  font-size: 18px;
+}
+.smp-logo-image {
+  display: flex;
+  align-items: center;
+}
+.smp-logo img {
+  width: 100%;
+}
+.startrustpilot-logo img {
+  width: 80%;
+}
+.social-link-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.social-link {
+  width: 35px;
+  height: 35px;
+  border-radius: 5px;
+  position: relative;
+  opacity: 0.7;
+}
+.social-link:hover {
+  opacity: 1;
+}
+.social-link i {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.facebook-icon {
+  color: #1877f2;
+  border: 1px solid #1877f2;
+  transition: 0.3s all;
+}
+.social-link:hover.facebook-icon {
+  color: #fff;
+  background-color: #1877f2;
+  transition: 0.3s all ease-in-out;
+}
+.twitter-icon {
+  color: #1d9bf0;
+  border: 1px solid #1d9bf0;
+  transition: 0.3s all ease-in-out;
+}
+.social-link:hover.twitter-icon {
+  color: #fff;
+  background-color: #1d9bf0;
+  transition: 0.3s all ease-in-out;
+}
+.linkedin-icon {
+  color: #000;
+  border: 1px solid #000;
+  transition: 0.3s all ease-in-out;
+}
+.social-link:hover.linkedin-icon {
+  color: #fff;
+  background-color: #000;
+  transition: 0.3s all ease-in-out;
+}
+.envelop-icon {
+  color: #006a9b;
+  border: 1px solid #006a9b;
+  transition: 0.3s all ease-in-out;
+}
+.social-link:hover.envelop-icon {
+  color: #fff;
+  background-color: #006a9b;
+  transition: 0.3s all ease-in-out;
+}
+.medi-logo-social-link {
+  padding: 5px 0;
+}
+.product-reviwed-link {
+  padding: 5px 0;
+}
+.product-reviwed-link a {
+  color: #006a9b;
+  font-size: 16px;
+}
+.medi-details-title p {
+  font-size: 16px;
+  margin-bottom: 30px;
+}
+.price-checker-list {
+  border: 1px solid #c0c0c0;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 50px;
+  border-radius: 5px;
+  position: relative;
+}
+.checker-field {
+  position: relative;
+}
+.checker-field label {
+  color: #000;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+.form-select {
+  background-color: transparent;
+  border: 1px solid #c0c0c0;
+  background-image: url("../images/icon/down-arrow.png");
+  display: block;
+  background-position: right 0rem center;
+  background-size: 38px 36px;
+}
+.strength-field {
+  padding: 10px 0;
+}
+.form-select:focus-visible {
+  color: rgb(66, 66, 66);
+}
+.form-select:focus {
+  border-color: #006a9b;
+  outline: 0;
+  box-shadow: none;
+}
+.sm-price {
+  margin-top: 20px;
+}
+.sm-price h1 {
+  font-size: 28px;
+  font-weight: 600;
+  color: #006a9b;
+}
+.sm-price h6 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #006a9b;
+  margin: 0;
+}
+.sm-price a {
+  font-size: 16px;
+  font-weight: 600;
+  color: #006a9b;
+  margin: 0;
+}
+.sm-price a:hover {
+  text-decoration: underline;
+}
+.sm-price p {
+  font-size: 16px;
+  font-weight: 500;
+  color: #000;
+  margin: 0;
+}
+.pchecker-table {
+  position: absolute;
+  top: -15px;
+  left: 8%;
+}
+.pc-table-title {
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #006a9b;
+  padding: 1px 15px;
+  border-radius: 5px;
+}
+.pc-table-title p {
+  margin: 0;
+  font-size: 16px;
+  color: #006a9b;
+  font-weight: 600;
+}
+.price-checker-button {
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+.pchecker-btn {
+  padding: 10px 30px;
+  background-color: #006a9b;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+}
+.pchecker-date-time {
+  margin-bottom: 20px;
+}
+.pchecker-date-time p {
+  color: #000;
+  margin: 0;
+}
+.pchecker-date-time p span {
+  color: #006a9b;
+  font-weight: 600;
+  margin: 0;
+}
+.common-addons {
+  padding-top: 20px;
+  border-top: 1px dashed #5a5a5a;
+  opacity: 0.7;
+  transition: 0.3s all ease-in-out;
+}
+.commonb-image img {
+  width: 100%;
+}
+.commonb-content a {
+  color: #000;
+}
+.commonb-content p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+.commonb-content a:hover {
+  text-decoration: underline;
+  color: #006a9b;
+}
+.commonb-btn {
+  padding: 5px 10px;
+  background-color: #006a9b;
+  font-size: 12px;
+  color: #fff;
+}
+.commonb-btn:hover {
+  padding: 5px 10px;
+  background-color: #006a9b;
+  font-size: 12px;
+  color: #fff;
+}
+.commonb-add-ons {
+  font-size: 20px;
+  font-weight: 600;
+}
+.commonb-or {
+  font-size: 20px;
+  font-weight: 600;
+}
+.common-addons:hover {
+  opacity: 1;
+  transition: 0.3s all ease-in-out;
+}
+
+/* Medicine Viagra Table Content */
+.medicine-tableList-section {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 20px;
+}
+.compare-vigra-title h1 {
+  font-size: 23px;
+  color: #000;
+}
+.compare-vigra-title h1 a {
+  font-size: 23px;
+  color: #006a9b;
+}
+.compare-vigra-title h1 a:hover {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.compare-vigra-title p {
+  font-size: 16px;
+  color: #000;
+}
+.compare-vigra-title p a {
+  color: #006a9b;
+}
+.compare-vigra-title p a:hover {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.nav-pills .medi-table-link {
+  border: 1px solid #aaaaaa;
+  color: #006a9b;
+  font-weight: 600;
+  padding: 8px;
+  margin: 0 5px;
+  font-size: 14px;
+}
+.nav-pills .nav-link.active,
+.nav-pills .show > .nav-link {
+  color: #fff;
+  background-color: #006a9b;
+  border: 1px solid #006a9b;
+  font-weight: 600;
+}
+.medicine-table-data thead tr th {
+  font-size: 14px;
+  background-color: #c9d1cf;
+  font-weight: 600;
+  color: #fff;
+}
+.medicine-table-data tbody tr th {
+  font-size: 14px;
+  color: #000;
+  font-weight: 400;
+}
+.medicine-table-data tbody tr td {
+  font-size: 14px;
+  color: #000;
+}
+.medicine-table-data > thead > tr > th.empty {
+  background: transparent;
+  border: 0;
+}
+.medicine-table-data > thead > tr > th.success {
+  background-color: #006a9b;
+}
+.medicine-table-data > tbody > tr > td.success {
+  background-color: #0089c9;
+  color: #fff;
+}
+.medicine-table-data > thead > tr:first-child > th {
+  border-top: 1px solid #fff;
+}
+.medicine-table-data > thead > tr > th {
+  vertical-align: bottom;
+  padding: 8px;
+  line-height: 1.42857143;
+  text-align: left;
+}
+.medicine-table-data > tfoot > tr > th {
+  border: 0;
+  border-top: 1px solid #c9d1cf;
+  border-bottom: 1px solid #fff;
+}
+.medicine-table-data > tfoot > tr > td {
+  border: 0;
+  border-top: 1px solid #c9d1cf;
+  border-bottom: 1px solid #fff;
+  font-size: 12px;
+  color: #006a9b;
+}
+.medicine-comparison-date {
+  padding-top: 15px;
+}
+.medicine-comparison-date p {
+  font-size: 14px;
+  text-align: end;
+  margin: 0;
+}
+.medicine-desc-section {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 20px;
+}
+/* Medicine Description */
+.medicine-desc-pills {
+  border-bottom: 1px solid #bbbbbb;
+}
+.nav-pills .medicine-desc-btn.active,
+.nav-pills .show > .medicine-desc-btn {
+  color: #000;
+  background-color: transparent;
+  border: none;
+  font-weight: 600;
+}
+.medicine-desc-btn {
+  color: #006a9b;
+  font-size: 18px;
+  padding-top: 0;
+  padding-bottom: 15px;
+  padding-left: 0;
+  padding-right: 15px;
+}
+.medicine-desc-btn:hover {
+  color: #006a9b;
+}
+.medicine-desc-title h4 {
+  font-size: 24px;
+  font-weight: 500;
+  margin-bottom: 20px;
+}
+.medicine-desc-content h6 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 500;
+  margin-top: 40px;
+}
+.medicine-desc-content p {
+  font-size: 15px;
+  color: #000;
+}
+.medicine-desc-content p a {
+  font-size: 16px;
+  color: #006a9b;
+}
+.medicine-desc-content p a:hover {
+  text-decoration: underline;
+  color: #006a9b;
+}
+.medicine-desc-content ul li {
+  list-style: disc;
+  list-style-position: inside;
+}
+.medicine-desc-content ul li a {
+  color: #006a9b;
+}
+.medicine-desc-content ul li a:hover {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.medicine-desc-table > thead > tr > th {
+  font-size: 16px;
+  font-weight: 600;
+  vertical-align: bottom;
+  text-align: left;
+}
+.medicine-desc-authorize {
+  border-top: 1px solid #e0e0e0;
+}
+.medicine-desc-authorize p {
+  padding-top: 20px;
+  font-size: 13px;
+  text-align: end;
+}
+.quickview-table {
+  margin-bottom: 30px;
+}
+.side-effect-table-content h6 {
+  font-size: 22px;
+  color: #000;
+  font-weight: 500;
+  margin-top: 30px;
+}
+.side-effects-content {
+  margin-bottom: 20px;
+}
+.side-effects-content p {
+  font-size: 16px;
+  font-weight: 500;
+  margin: 0;
+}
+.side-effects-content ul {
+  margin-top: 10px;
+  list-style-type: disc;
+  list-style-position: inside;
+  font-size: 16px;
+}
+.side-effects-content p a {
+  color: #006a9b;
+  font-size: 16px;
+}
+.mdcn-more-info h6 i {
+  color: #006a9b;
+  margin-right: 5px;
+}
+.mdcn-more-info p span {
+  font-style: italic;
+}
+.review-rating,
+.review-rating-clients {
+  margin-top: 15px;
+  padding: 8px 45px;
+}
+.rating-value {
+  font-size: 100px;
+  line-height: 60px;
+  color: #fdad2b;
+  font-weight: 700;
+  letter-spacing: -6px;
+  white-space: nowrap;
+}
+.rating-small {
+  color: #999;
+  font-size: 20px;
+  line-height: 20px;
+  padding: 14px 0 0 3px;
+  font-weight: 600;
+  letter-spacing: 0;
+  vertical-align: top;
+}
+.rating-star {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.rating-star span i {
+  color: #fdad2b;
+  font-size: 22px;
+}
+.viagra-review-section {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 25px 20px;
+}
+.review-rating-bar {
+  display: flex;
+  align-items: center;
+}
+.rating-bar-number {
+  font-size: 16px;
+  display: inline-block;
+  margin-right: 5px;
+  color: #8d8d8d;
+}
+.rating-bar-star {
+  margin-right: 5px;
+  color: #fdad2b;
+  font-size: 14px;
+}
+.review-bar-container {
+  background-color: #dddddd;
+  width: 250px;
+  height: 12px;
+  position: relative;
+}
+.review-bar {
+  position: absolute;
+  background-color: #fdad2b;
+  top: 0;
+  left: 0;
+  bottom: 0;
+}
+.rating-bar-counter {
+  margin-left: 8px;
+  font-size: 14px;
+  color: #8d8d8d;
+  font-weight: 500;
+}
+.client-logo img {
+  width: 60%;
+}
+.clients-review-notice p {
+  margin-top: 10px;
+  font-size: 16px;
+  color: #000;
+}
+.clients-review-notice p a {
+  color: #006a9b;
+}
+.clients-review-notice p a:hover {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.rating-big-star img {
+  width: 100%;
+}
+.rating-big-star span i {
+  font-size: 24px;
+  color: #fdad2b;
+}
+.rating-comments h3 {
+  font-size: 20px;
+  color: #fdad2b;
+  font-weight: 600;
+  margin: 0;
+}
+.rating-time p {
+  margin: 0;
+  color: #8d8d8d;
+}
+.client-link-read p {
+  margin: 0;
+}
+.client-link-read p a {
+  color: #006a9b;
+}
+.client-link-read p a:hover {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.review-client-name {
+  padding: 5px 0;
+}
+.review-client-name h3 {
+  color: #006a9b;
+  font-size: 22px;
+}
+.review-client-name h3 i {
+  margin-right: 3px;
+  font-size: 18px;
+}
+.product-review h6 {
+  color: #8d8d8d;
+  margin-bottom: 3px;
+}
+.product-review p {
+  color: #000;
+  margin-bottom: 20px;
+}
+.client-review-content {
+  margin-top: 20px;
+  border-bottom: 1px solid #cacaca;
+}
+.show-more-review-button {
+  margin-top: 20px;
+  text-align: center;
+}
+.smr-btn {
+  background-color: #006a9b;
+  border: 2px solid #006a9b;
+  color: #fff;
+  padding: 12px 30px;
+  font-size: 20px;
+  font-weight: 600;
+}
+.smr-btn:hover {
+  background-color: #fff;
+  border: 2px solid #006a9b;
+  color: #006a9b;
+}
+.discreet-service-section,
+.delivery-timetable-section,
+.medicine-ra-section {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 20px;
+}
+.discreet-service-section h1,
+.delivery-timetable-section h1,
+.medicine-ra-section h1 {
+  text-align: center;
+  font-size: 26px;
+  font-weight: 500;
+}
+.discreet-service-imge img {
+  width: 100%;
+}
+.find-out-more {
+  border-top: 1px solid #cacaca;
+  text-align: end;
+}
+.find-out-more p {
+  margin-top: 10px;
+  margin-bottom: 0;
+}
+.find-out-more p a {
+  font-size: 16px;
+  color: #006a9b;
+}
+.find-out-more p a:hover {
+  text-decoration: underline;
+  color: #006a9b;
+}
+.delivery-table tbody tr td i {
+  margin-right: 10px;
+  color: #4e4e4e;
+}
+.r-article-content {
+  border-top: 1px dashed #afafaf;
+  margin-top: 25px;
+}
+.r-article-heading h3 {
+  margin-top: 12px;
+  margin-bottom: 15px;
+}
+.r-article-heading h3 a {
+  color: #006a9b;
+  font-size: 22px;
+}
+.r-article-heading h3 a:hover {
+  text-decoration: underline;
+  color: #006a9b;
+}
+.vm-article-button {
+  margin-top: 30px;
+}
+.medicine-ra-section {
+  margin-bottom: 30px;
+}
+/* Right Side */
+.medi-popular-option {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 5px;
+  padding: 20px;
+}
+.medi-popular-option h5 {
+  text-align: center;
+  color: #006a9b;
+  font-size: 17px;
+  font-weight: 600;
+  margin-bottom: 15px;
+}
+.popular-medi {
+  margin-top: 15px;
+}
+.popular-medi-image img {
+  width: 100%;
+}
+.popular-medi-content h6 {
+  margin: 0;
+  font-size: 15px;
+  color: #006a9b;
+  font-weight: 600;
+}
+.popular-medi-content p {
+  margin: 0;
+  font-size: 13px;
+  color: #000;
+}
+.link-icon i {
+  color: #006a9b;
+}
+.popular-medi:hover .popular-medi-content {
+  text-decoration: underline;
+}
+.popular-medi:hover .popular-medi-content h6 {
+  color: #01415f;
+}
+.popular-medi:hover .link-icon i {
+  color: #01415f;
+}
+.about-register {
+  margin-top: 25px;
+  background-color: #fff;
+  padding: 15px 30px;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+.about-register img {
+  width: 60%;
+  margin-bottom: 10px;
+}
+.about-register p {
+  font-size: 18px;
+  margin: 0;
+  color: #006a9b;
+}
+.about-creview {
+  text-align: center;
+}
+.about-creview h1 {
+  font-size: 30px;
+}
+.about-creview h3 {
+  font-size: 24px;
+}
+.about-creview img {
+  width: 70%;
+  padding: 10px 0;
+}
+.cr-content-slider {
+  background-color: #006a9b;
+  margin-top: 25px;
+  padding: 20px;
+  color: #fff;
+}
+.ac-comment {
+  font-size: 16px;
+  text-align: start;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.ar-client-name {
+  text-align: start;
+  padding: 15px 0;
+  margin: 0;
+}
+.ar-client-name span {
+  font-size: 14px;
+  font-style: italic;
+}
+.client-review-time {
+  font-size: 14px;
+  text-align: start;
+  margin-bottom: 15px;
+}
+.carousel-indicators li {
+  display: block;
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.carousel-indicators li.active {
+  background: #fff;
+}
+.client-review-button {
+  text-align: center;
+  background-color: #006a9b;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.aboutc-review-btn {
+  background-color: #f7f7f7;
+  color: #006a9b;
+  width: 100%;
+  border-radius: 0px;
+  padding: 10px 30px;
+}
+.aboutc-review-btn:hover {
+  background-color: #f7f7f7;
+  color: #366444;
+  width: 100%;
+  padding: 10px 30px;
+  text-decoration: underline;
+}
+/* Lowest Price */
+.lowest-price-content {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  padding: 20px 0;
+}
+.lowestprice-image-content {
+  padding: 0px 12px;
+  text-align: center;
+}
+.lowestprice-image-content img {
+  width: 80%;
+}
+.lowestprice-image-content p {
+  font-size: 14px;
+  padding: 0px 20px;
+  color: #000;
+  margin-top: 10px;
+}
+.aboutc-lowest-btn {
+  width: 100%;
+  border-radius: 0px;
+  padding: 10px 30px;
+  color: #000;
+  background-color: rgba(0, 106, 155, 0.3);
+}
+.aboutc-lowest-btn:hover {
+  color: #006a9b;
+  text-decoration: underline;
+  background-color: rgba(0, 106, 155, 0.3);
+}
+.about-need-help {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  text-align: center;
+}
+.need-help-link {
+  background-color: rgba(0, 106, 155, 0.3);
+  margin: 30px 0;
+  padding: 10px 0;
+}
+.need-help-link a {
+  color: #000;
+  font-weight: 600;
+}
+.need-help-link a:hover {
+  color: #006a9b;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.about-need-help img {
+  width: 70%;
+}
+.popular-treatments-items {
+  margin-top: 30px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.popular-treatments-items img {
+  width: 30%;
+}
+.popular-treatments-items h6 {
+  font-size: 18px;
+  color: #006a9b;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.treatments-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 106, 155, 0.3);
+  padding: 8px 0;
+  margin: 8px 0;
+}
+.treatments-links-name p {
+  margin: 0;
+  padding-left: 20px;
+  color: #006a9b;
+}
+.links-icon {
+  padding-right: 20px;
+  color: #006a9b;
+}
+.treatments-links-name,
+.links-icon {
+  font-size: 18px;
+}
+
+.popular-medi-hold {
+  display: flex;
+  align-items: center;
+}
+.popular-medi-content {
+  margin-left: 20px;
+}
+.link-icon {
+  margin-left: auto;
+}

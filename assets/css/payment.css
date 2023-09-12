@@ -1,0 +1,67 @@
+.payment-details {
+  border: 1px solid #bbbbbb;
+  padding: 50px;
+  border-radius: 5px;
+}
+.payment-amount h3 {
+  color: #006a9b;
+  font-size: 22px;
+  font-weight: 700;
+}
+.payment-amount p {
+  color: #000;
+  font-size: 25px;
+  font-weight: 700;
+}
+.cardholder-name,
+.cardholder-number,
+.cardholder-address {
+  margin-bottom: 5px;
+}
+.cardholder-name label,
+.cardholder-number label,
+.cardholder-address label,
+.cardholder-postcode label {
+  color: #006a9b;
+  font-weight: 600;
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+.payment-client-name,
+.payment-client-cardnumber,
+.payment-client-address,
+.payment-client-postcode {
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+}
+.number-validity {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #c5c5c5;
+  border-radius: 5px;
+}
+.card-validity-content {
+  padding: 10px 0;
+}
+.card-inputfield {
+  border: none;
+}
+.payment-button {
+  text-align: center;
+  margin-top: 20px;
+}
+.payment-btn {
+  background-color: #006a9b;
+  border: 2px solid #006a9b;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 10px 30px;
+}
+.payment-btn:hover {
+  background-color: #fff;
+  border: 2px solid #006a9b;
+  color: #006a9b;
+  font-weight: 600;
+}

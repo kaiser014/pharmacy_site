@@ -1,0 +1,431 @@
+.about-section,
+.breadcrumb-section {
+  background-color: #f7f7f7;
+}
+.about-left-item {
+  background-color: #fff;
+  padding: 30px 20px;
+}
+.about-us-content {
+  border: 1px solid #c4c4c4;
+  padding: 20px;
+  text-align: center;
+}
+.about-us-content h1 {
+  font-size: 35px;
+  font-weight: 700;
+  margin: 0;
+  padding: 0;
+  color: #006a9b;
+}
+.about-us-content h4 {
+  font-size: 26px;
+  margin: 0;
+  padding: 15px 0px;
+  color: #222222;
+}
+.about-us-content p {
+  font-size: 16px;
+  margin-bottom: 15px;
+  color: #222222;
+}
+.about-us-content a {
+  font-size: 18px;
+  margin: 0px;
+  color: #006a9b;
+}
+.about-us-content a:hover {
+  text-decoration: underline;
+}
+/* All items border style here */
+.contact-information,
+.pharmacy-regulation,
+.pharmacy-mhra,
+.about-qualified-team,
+.about-video-section {
+  margin-top: 25px;
+  border: 1px solid #b3b3b3;
+}
+.about-info-heading {
+  padding: 15px 15px;
+}
+.about-info-heading h3 {
+  font-size: 22px;
+  font-weight: 700;
+  margin: 0;
+  color: #006a9b;
+  text-transform: capitalize;
+}
+.about-heading-divider {
+  border-bottom: 1px solid #b3b3b3;
+  padding: 0;
+}
+.info-details-item,
+.pr-content-item,
+.about-video-content {
+  padding: 25px 20px;
+}
+.info-details-item h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.info-details-item p {
+  font-size: 16px;
+  padding: 20px 0;
+  margin: 0;
+}
+.vat-info p,
+.phone-info p {
+  padding: 0;
+}
+.info-details-item a {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.info-details-item a:hover {
+  color: red;
+  text-decoration: underline;
+}
+.info-details {
+  position: relative;
+}
+.info-divider {
+  position: absolute;
+  border: 1px dashed #999999;
+  height: 80%;
+  top: 10%;
+  bottom: 10%;
+  left: 50%;
+  transform: translateX(-50%);
+}
+/* Pharmacy Regulation CSS Start */
+.pr-content-item h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.pr-content-item p {
+  font-size: 16px;
+  padding: 15px 0px;
+  margin: 0;
+}
+.pr-content-item p a {
+  text-decoration: underline;
+  color: #006a9b;
+}
+.pr-content-item p a:hover {
+  color: red;
+}
+.registered-list p {
+  padding: 0;
+  margin-bottom: 10px;
+}
+.registered-list ul {
+  list-style: disc;
+  list-style-position: inside;
+}
+.registered-list ul li {
+  font-size: 14px;
+}
+.registered-list ul li a {
+  text-decoration: underline;
+  color: #006a9b;
+}
+.registered-list ul li a:hover {
+  color: red;
+}
+/* Pharmacy Regulation CSS End */
+/* MHRA */
+.mhra-content {
+  padding: 25px 20px;
+}
+.mhra-heading {
+  text-transform: uppercase;
+}
+.mhra-content-item h6 {
+  font-size: 16px;
+  font-weight: 400;
+  margin: 0;
+}
+.mhra-content-item p {
+  font-size: 16px;
+  padding-top: 15px;
+  margin: 0;
+}
+.mhra-content-item a {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.mhra-content-item a:hover {
+  color: red;
+}
+.mhra-content-item img {
+  width: 70%;
+}
+/* Team Member */
+.about-qualified-team-content {
+  padding: 25px 25px;
+}
+.team-member-content {
+  padding: 20px 0;
+}
+.team-member-image img {
+  width: 100%;
+}
+.team-member-details h4 {
+  font-size: 17px;
+  font-weight: 700;
+  margin: 0;
+  color: #006a9b;
+}
+.team-member-details h4 span {
+  font-size: 17px;
+  font-weight: 500;
+  margin: 0;
+  color: #000;
+}
+.team-member-details h6 {
+  font-size: 15px;
+  margin: 0;
+  padding: 5px 0;
+}
+.team-member-details p {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+.srtignt-under-line {
+  width: 97%;
+  margin-left: 12px;
+  height: 1px;
+  background-color: #006a9b;
+}
+.aqd-image img {
+  width: 40%;
+}
+/* Common Div CSS */
+.contact-address-details,
+.pr-register-item,
+.mhra-content-item,
+.aqd-image {
+  padding-left: 20px;
+}
+.about-video {
+  text-align: center;
+}
+.find-out-about {
+  margin-top: 10px;
+}
+.find-out-about a {
+  color: #006a9b;
+  text-decoration: underline;
+}
+.find-out-about a:hover {
+  color: red;
+  text-decoration: underline;
+}
+/* Left Side Start */
+/* About Register */
+.about-register {
+  background-color: #fff;
+  padding: 15px 30px;
+  border: 1px solid #c4c4c4;
+  text-align: center;
+}
+.about-register img {
+  width: 60%;
+  margin-bottom: 10px;
+}
+.about-register p {
+  font-size: 18px;
+  margin: 0;
+  color: #006a9b;
+}
+.cr-content-slider {
+  background-color: #006a9b;
+  margin-top: 25px;
+  padding: 20px;
+  color: #fff;
+}
+.about-creview {
+  text-align: center;
+}
+.about-creview h1 {
+  font-size: 30px;
+}
+.about-creview h3 {
+  font-size: 24px;
+}
+.about-creview img {
+  width: 70%;
+  padding: 10px 0;
+}
+.client-review-icon {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.about-left-icon img {
+  width: 100%;
+}
+.google-icon img {
+  width: 50%;
+}
+.trustpilot-icon {
+  margin-bottom: 10px;
+}
+.trustpilot-icon img {
+  width: 80%;
+}
+.ac-comment {
+  font-size: 16px;
+  text-align: start;
+  font-weight: 400;
+  margin-bottom: 0;
+}
+.ar-client-name {
+  text-align: start;
+  padding: 15px 0;
+  margin: 0;
+}
+.ar-client-name span {
+  font-size: 14px;
+  font-style: italic;
+}
+.client-review-time {
+  font-size: 14px;
+  text-align: start;
+  margin-bottom: 15px;
+}
+.carousel-indicators li {
+  display: block;
+  margin-bottom: 5px;
+  border: 1px solid #fff;
+  height: 13px;
+  width: 13px;
+  border-radius: 50px;
+  margin-right: 5px;
+}
+.carousel-indicators li.active {
+  background: #fff;
+}
+.client-review-button {
+  text-align: center;
+  background-color: #006a9b;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 3px;
+  padding-right: 3px;
+}
+.aboutc-review-btn {
+  background-color: #f7f7f7;
+  color: #006a9b;
+  width: 100%;
+  border-radius: 0px;
+  padding: 10px 30px;
+}
+.aboutc-review-btn:hover {
+  background-color: #f7f7f7;
+  color: #366444;
+  width: 100%;
+  padding: 10px 30px;
+  text-decoration: underline;
+}
+.lowest-price-content {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  padding: 20px 0;
+}
+.lowestprice-image-content {
+  padding: 0px 12px;
+  text-align: center;
+}
+.lowestprice-image-content img {
+  width: 80%;
+}
+.lowestprice-image-content p {
+  font-size: 14px;
+  padding: 0px 20px;
+  color: #000;
+}
+.aboutc-lowest-btn {
+  width: 100%;
+  border-radius: 0px;
+  padding: 10px 30px;
+  color: #000;
+  background-color: rgba(0, 106, 155, 0.3);
+}
+.aboutc-lowest-btn:hover {
+  color: #006a9b;
+  text-decoration: underline;
+  background-color: rgba(0, 106, 155, 0.3);
+}
+.about-need-help {
+  margin-top: 30px;
+  background-color: #fff;
+  border: 1px solid #cccccc;
+  text-align: center;
+}
+.need-help-link {
+  background-color: rgba(0, 106, 155, 0.3);
+  margin: 30px 0;
+  padding: 10px 0;
+}
+.need-help-link a {
+  color: #000;
+  font-weight: 600;
+}
+.need-help-link a:hover {
+  color: #006a9b;
+  font-weight: 600;
+  text-decoration: underline;
+}
+.about-need-help img {
+  width: 70%;
+}
+.discreet-packaging h6 {
+  font-size: 24px;
+  font-weight: 400;
+  color: #006a9b;
+}
+.popular-treatments-items {
+  margin-top: 30px;
+  border: 1px solid #cccccc;
+  background-color: #fff;
+  text-align: center;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+.popular-treatments-items img {
+  width: 30%;
+}
+.popular-treatments-items h6 {
+  font-size: 18px;
+  color: #006a9b;
+  font-weight: 600;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.treatments-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: rgba(0, 106, 155, 0.3);
+  padding: 8px 0;
+  margin: 8px 0;
+}
+.treatments-links-name p {
+  margin: 0;
+  padding-left: 20px;
+  color: #006a9b;
+}
+.links-icon {
+  padding-right: 20px;
+  color: #006a9b;
+}
+.treatments-links-name,
+.links-icon {
+  font-size: 18px;
+}

@@ -1,0 +1,109 @@
+.checkout-all-content {
+  padding: 50px;
+  border: 1px solid #c4c4c4;
+  border-radius: 5px;
+  margin-bottom: 50px;
+}
+.patient-content {
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+.pc-title,
+.shipping-title {
+  padding: 15px 0;
+  padding-left: 25px;
+  background-color: #006a9b;
+  border-radius: 5px 5px 0px 0px;
+}
+.pc-title h3,
+.shipping-title h3 {
+  text-transform: uppercase;
+  font-size: 20px;
+  letter-spacing: 1px;
+  color: #fff;
+  margin-bottom: 0;
+}
+.pc-title h3 span,
+.shipping-title h3 span {
+  margin-right: 5px;
+}
+.pc-title h3 span svg,
+.shipping-title h3 span svg {
+  font-size: 18px;
+}
+.pc-details,
+.shipping-details {
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 0px 0px 5px 5px;
+}
+.checkout-formlabel {
+  color: #383838;
+  font-weight: 600;
+  font-size: 17px;
+}
+.checkout-forminput {
+  border: 1px solid #919191;
+}
+.patient-checkbox {
+  border: 1px solid #919191;
+}
+.checkbox-content {
+  font-style: italic;
+  color: #727272;
+  margin-bottom: 0;
+}
+.patient-checkBoxlabel {
+  color: #383838;
+  font-weight: 600;
+}
+.patientform-check {
+  padding-left: 25px;
+  margin-top: 5px;
+}
+.row-alignment {
+  padding: 5px 0;
+}
+/* Shipping Address */
+.shipping-content {
+  margin-top: 50px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  background-color: #fff;
+  border-radius: 5px;
+}
+/* Checkout Button */
+.checkoutBtn-alignment {
+  text-align: end;
+}
+.checkout-btn {
+  background-color: #006a9b;
+  border: 2px solid #006a9b;
+  color: #fff;
+  padding: 12px 20px;
+  font-size: 18px;
+  font-weight: 600;
+  text-transform: capitalize;
+  margin-top: 30px;
+}
+.checkout-btn:hover {
+  background-color: #014768;
+  border: 2px solid #014666;
+  color: #fff;
+  font-weight: 600;
+}
+.checkout-btn span {
+  padding: 0px 5px;
+}
+.checkout-btn span svg {
+  font-size: 18px;
+}
+.checkout-selectOption:focus {
+  border-color: #006a9b;
+  outline: 0px;
+  box-shadow: none;
+}
+/* Common Css */
+/* .pc-item {
+  padding: 5px 0;
+} */
